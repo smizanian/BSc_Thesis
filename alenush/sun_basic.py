@@ -15,7 +15,7 @@ class SunImage:
         self.x_c = -1
         self.y_c = -1
 
-    def get_sun_center(self) -> tuple:
+    def get_sun_center(self) -> Tuple[int, int]:
         start_h = 0
         end_h = 0
         row = self._sun_image[0]
